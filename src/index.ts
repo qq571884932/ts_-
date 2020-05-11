@@ -39,7 +39,7 @@ Any = 'Break';
 const arrAny:any[] = [11,3,true,{ss:1}];
 
 //void类型    一般用于不返回任何值
-const consoleTxt = (txt:string):void =>{
+const consoleTxt = (txt:string):void => {
     throw new Error(txt);
 }
 // consoleTxt("Break");
@@ -78,3 +78,4 @@ const getLength = (target:number|string):number =>{ //这里我的逻辑没问�
 console.log(getLength(111));
 console.log("ok2")
 
+console.log("github")
