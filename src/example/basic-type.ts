@@ -77,5 +77,5 @@ const getLength = (target:number|string):number =>{ //这里我的逻辑没问�
 }
 console.log(getLength(111));
 console.log("ok")
-console.log("66623")
+console.log("")
 
