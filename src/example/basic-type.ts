@@ -67,7 +67,6 @@ getObj(obj);
 obj2.age = 10;
 
 //类型断言  当我们知道一个数据的类型的时候 但是ts 给我们提示报错 就用到类型断言
-
 const getLength = (target:number|string):number =>{ //这里我的逻辑没问题 但是ts依然会报错 就会用到类型断言
     if( (<string>target).length || (target as string).length === 0 ){
         return (target as string).length;
@@ -75,7 +74,7 @@ const getLength = (target:number|string):number =>{ //这里我的逻辑没问�
         return target.toString().length;
     }
 }
+
 console.log(getLength(111));
-console.log("ok")
-console.log("")
+
 
